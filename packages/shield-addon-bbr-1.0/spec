@@ -1,0 +1,4 @@
+---
+name: shield-addon-bbr-1.0
+files:
+- bbr/bbr-1.0.0.tar.gz

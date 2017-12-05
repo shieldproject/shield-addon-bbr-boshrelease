@@ -1,0 +1,6 @@
+---
+blobstore:
+  provider: s3
+  options:
+    bucket_name: shield-addon-bbr-boshrelease
+final_name: shield-addon-bbr
