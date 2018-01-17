@@ -1,0 +1,28 @@
+name: shield-addon-bbr
+version: 0.1.0
+commit_hash: 0bd1beb
+uncommitted_changes: false
+jobs:
+- name: shield-addon-bbr-1.0
+  version: 076542ca752217584daada8df06f222db6ba5d2c
+  fingerprint: 076542ca752217584daada8df06f222db6ba5d2c
+  sha1: dff1961478324bfb7f9f357ce4052942c512b218
+- name: shield-addon-bbr-1.1.4
+  version: f567a96fcb5cd75968b008e9c19ce88febfa37fd
+  fingerprint: f567a96fcb5cd75968b008e9c19ce88febfa37fd
+  sha1: 1cd67e72ba8595570a5dbbc388746dbd172c326b
+packages:
+- name: shield-addon-bbr-1.0
+  version: 7916e39ccd681019d8ad9f69c5b449abc963b091
+  fingerprint: 7916e39ccd681019d8ad9f69c5b449abc963b091
+  sha1: f3da276e57650a9673f35dfaec791c5ecf39043b
+  dependencies: []
+- name: shield-addon-bbr-1.1.4
+  version: 85e4c3554ad6022c508f910cb8df5d90994aad23
+  fingerprint: 85e4c3554ad6022c508f910cb8df5d90994aad23
+  sha1: f9677a9d5e435278b242ad37e3125322afe63879
+  dependencies: []
+license:
+  version: fc24a259da4ed145bfa70db6bc689b7dfb91673c
+  fingerprint: fc24a259da4ed145bfa70db6bc689b7dfb91673c
+  sha1: 500688b16bd89acaa14a7dbcf6b67a8608d1f409
