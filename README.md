@@ -9,6 +9,7 @@ BOSH deployments.
 The following versions are currently available:
 
  - **1.0.0** via `shield-addon-bbr-1.0`
+ - **1.1.4** via `shield-addon-bbr-1.1.4`
 
 Need a version we don't (yet) support?  Open a [Github Issue][bug]
 asking that we package it up.  Please identify the full version
@@ -29,7 +30,7 @@ instance_groups:
   - name: whatever
     jobs:
       # ...
-      - name:    shield-addon-bbr-1.0
+      - name:    shield-addon-bbr-1.1.4
         release: shield-addon-bbr
 ```
 
