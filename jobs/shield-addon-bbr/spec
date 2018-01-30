@@ -1,0 +1,4 @@
+---
+name: shield-addon-bbr
+packages:
+  - bbr
