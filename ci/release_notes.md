@@ -4,3 +4,7 @@ so no more specifying a specific version.
 
 we also changed the package name so that it reflects the
 default path in shield bbr plugins
+
+
+## version Update
+- bbr cli 1.1.4
