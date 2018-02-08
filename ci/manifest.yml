@@ -1,31 +1,13 @@
 name: shield-addon-bbr-ci
 
 instance_groups:
-  - name: all
+  - name: bbr
     instances: 1
     azs: [z1]
     vm_type: default
     stemcell: default
     networks: [{name: default}]
-    jobs:
-      - { release: shield-addon-bbr, name: shield-addon-bbr-1.0 }
-      - { release: shield-addon-bbr, name: shield-addon-bbr-1.1.4 }
-
-  - name: bbr-1.0
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-bbr, name: shield-addon-bbr-1.0 }]
-
-  - name: bbr-1.1.4
-    instances: 1
-    azs: [z1]
-    vm_type: default
-    stemcell: default
-    networks: [{name: default}]
-    jobs: [{ release: shield-addon-bbr, name: shield-addon-bbr-1.1.4 }]
+    jobs: [{ release: shield-addon-bbr, name: shield-addon-bbr }]
 
 update:
   canaries: 0
