@@ -32,6 +32,11 @@ instance_groups:
       # ...
       - name:    shield-addon-bbr-1.1.4
         release: shield-addon-bbr
+
+releases:
+  # ...
+  - name: shield-addon-bbr
+    version: latest
 ```
 
 That's really all there is to it.
