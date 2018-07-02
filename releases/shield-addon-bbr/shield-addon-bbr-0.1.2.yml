@@ -1,0 +1,19 @@
+name: shield-addon-bbr
+version: 0.1.2
+commit_hash: aa4ece0
+uncommitted_changes: false
+jobs:
+- name: shield-addon-bbr
+  version: bbd04e73c788a7c296bb4224fefd586ff7ce9c4c
+  fingerprint: bbd04e73c788a7c296bb4224fefd586ff7ce9c4c
+  sha1: 9f8acbb70633d93a4cc7d0795da4a3aeea6b2cf8
+packages:
+- name: bbr
+  version: 310e8d997a3d61d79cd36c0fbc553e7c508dd4a6
+  fingerprint: 310e8d997a3d61d79cd36c0fbc553e7c508dd4a6
+  sha1: bf0b762a545b3bb7dba3e7a2048a0ecc4f4a994f
+  dependencies: []
+license:
+  version: fc24a259da4ed145bfa70db6bc689b7dfb91673c
+  fingerprint: fc24a259da4ed145bfa70db6bc689b7dfb91673c
+  sha1: 500688b16bd89acaa14a7dbcf6b67a8608d1f409
