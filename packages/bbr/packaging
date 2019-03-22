@@ -5,4 +5,4 @@ set -eu
 # https://github.com/cloudfoundry-incubator/bosh-backup-and-restore/releases/download/v1.4.0/bbr-1.4.0-linux-amd64
 mkdir -p   ${BOSH_INSTALL_TARGET}/bin
 cp bbr/bbr ${BOSH_INSTALL_TARGET}/bin
-chmod 755 bbr/bbr
+chmod 0755  ${BOSH_INSTALL_TARGET}/bin/*
