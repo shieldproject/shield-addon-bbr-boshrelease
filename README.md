@@ -1,14 +1,14 @@
 # SHIELD BOSH Backup / Restore Add-on
 
 This BOSH release provides add-on tools for augmenting SHIELD
-Agents with Pivotal's [BBR toolchain][bbr] for integrating with
+Agents with Cloud Foundry's [BBR toolchain][bbr] for integrating with
 BOSH deployments.
 
 ## Versions
 
 The following versions are currently available:
 
- - **1.4.0** via `shield-addon-bbr`
+ - **1.9.77** via `shield-addon-bbr`
 
 Need a version we don't (yet) support?  Open a [Github Issue][bug]
 asking that we package it up.  Please identify the full version
@@ -41,4 +41,4 @@ releases:
 That's really all there is to it.
 
 [bug]: https://github.com/shieldproject/shield-addon-bbr-boshrelease/issues
-[1]:   https://github.com/starkandwayne/shield-boshrelease
+[1]:   https://github.com/shieldproject/shield-boshrelease
